@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Web Services | Contact</title>
+		<link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
+		<link rel="stylesheet" href="style.css">
+		<script src="index.js" defer></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="logo-and-nav">
+					<div class="main-logo">
+						<a href="index.html"><h1 class="logo">Web Services</h1></a>
+					</div>
+					<div class="navigation">
+						<nav class="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="services.html">Services</a></li>
+								<li><a class="active" href="contact.html">Contact</a></li>
+							</ul>
+						</nav>
+						<div class="menu-and-close-icons">
+							<div class="menu-icon">
+								<div class="bars">
+									<span class="bar"></span>
+									<span class="bar"></span>
+									<span class="bar"></span>
+								</div>
+							</div>
+							<p class="close-icon">X</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="contact non-home bottom5">
+			<img class="contact-img" src="imgs/contact/contact-bnr.jpg">
+			<div class="container">
+				<div class="text-and-button">
+					<h2>Contact Us</h2>
+				</div>
+			</div>
+		</section>
+
+		<section class="contact bottom3">
+				<div class="container">
+					<div class="contact-container">
+						<form action="https://api.web3forms.com/submit" method="POST" class="contact">
+							<div class="contact-text">
+								<h2>Send us a message</h2>
+								<p>Fill out the form below and we will get back to you shortly.</p>
+							</div>
+							<input type="hidden" name="access_key" value="2bf05e7c-fc9e-4871-9a72-26be04760a90">
+							<input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+							<input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+							<textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+							<button class="btn" type="submit">Submit</button>
+						</form>
+					</div>
+				</div>
+			</section>
+
+		<section class="contact-btm bottom5 bottom1">
+			<img class="contact-img" src="imgs/contact/contact-bg.jpg">
+			<div class="container">
+				<div class="text-and-button">
+					<h2 class="h2">We would love to work with you!</h2>
+					<div class="boxes">
+						<div class="box">
+							<img src="imgs/contact/icon1.png">
+							<div class="text">
+								<h2>Address</h2>
+								<p>Jln Cempaka Wangi 22</p>
+								<p>Jakarta – Indonesia</p>
+							</div>
+						</div>
+						<div class="box">
+							<img src="imgs/contact/icon2.png">
+							<div class="text">
+								<h2>Contact</h2>
+								<p>Phone : <a href="+12345678900">+0123.4567.8900</a></p>
+								<p>Email : <a href="mailto:support@yoursite.com">support@yoursite.com</a></p>
+							</div>
+						</div>
+						<div class="box">
+							<img src="imgs/contact/icon3.png">
+							<div class="text">
+								<h2>Address</h2>
+								<p>Monday – Friday: 09:00 – 20:00</p>
+								<p>Sunday – Saturday: 10:30 - 22:00</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="text-info">
+					<div class="footer-logo">
+						<a href="index.html"><h1 class="logo">Web Services</h1></a>
+					</div>
+					<div class="contact-info">
+						<span><a href="mailto:info@Island.com">info@Island.com</a></span> |
+						<span><a href="tel:+123456789">+123456789</a></span> |
+						<span>Seesreasse 21, Zurich</span>
+					</div>
+					<p class="copyright">© 2024 Island. All rights reserved.</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
